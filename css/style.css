@@ -1,0 +1,208 @@
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color:rgb(84, 85, 82);
+}
+body{
+    background:rgb(209, 207, 207);
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/*
+header
+*/
+header{
+    background:rgba(211, 85, 27, 0.479);
+    height: 70px;
+    
+
+}
+header *{
+    color: #fff;
+}
+header h1{
+    margin-top: 12px;
+
+}
+header h1 a{
+    color: #fff;
+}
+header h1 a:hover{
+    color: #fff;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+header ul li{
+    float:left;
+    position: relative;
+}
+header ul li a{
+    display: block;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+}
+header ul li a:hover{
+    background: rgba(190, 78, 26, 0.479);
+    transition: 0.5s;
+    color:#fff;
+
+}
+header ul li ul{
+   position: absolute;
+   top: 70px;
+   right: 0px;
+   width: 180px;
+   display: none;
+   z-index: 111;
+}
+
+header ul li:hover ul{
+  display: block;
+}
+header ul li ul li{
+    width: 100%;
+}
+ 
+header ul li ul li{
+    padding: 10px;
+    background:#a8a7a7;
+    color: rgba(190, 78, 26, 0.479);
+}
+ 
+/*
+ karousel
+*/
+.slider-title{
+    text-align: center;
+    padding: 10px;
+}
+.carousel{
+    height: 670px;
+}
+.carousel-inner, .carousel-item{
+    height: 600px;
+    border-radius: 4px;
+}
+.carousel-caption h5{
+    font-size: 2rem;
+    font-weight: 500;
+    background: #fff;
+    max-width: 100%;
+    padding: 0.3em;
+    opacity: 0.5;
+}
+.carousel-caption-hack{
+    position: absolute;
+    right: 0% ;
+    bottom: 0.05rem;
+    left: 0% ;
+    padding-top: 1.25rem ;
+    padding-bottom: 0.5rem ;
+    color:#fff;
+    text-align: center;
+    width: 100%
+}
+.slider-title2{
+    text-align: center;
+    padding: 5px;
+}
+input{
+    border: 1px solid #ececec;
+    border-radius: 4px;
+    line-height: 1.5rem;
+    color: #444444;
+}
+/*
+main
+*/
+.main-content h2{
+    margin: 14px;
+}
+.main-content .post{
+    margin-bottom: 3em;
+
+}
+.main-content .post_text{
+  background:#fff;
+  padding: 8px;
+  border-radius: 3px;
+}
+.main-content .post_text h3 {
+  text-decoration: underline;
+  margin: 14px;
+}
+.main-content .post_text i{
+    margin: 14px;
+}
+.main-content .post_text p{
+    margin: 14px;
+}
+
+.button1{
+ background-color: rgb(38, 179, 19);
+ color: #0f0f0f;
+ 
+}
+
+.button2{
+    background-color: rgb(241, 47, 47);
+    color: #0f0f0f;
+}
+/*
+footer
+*/
+.footer{
+    background:rgba(211, 85, 27, 0.479);
+    color: #fff;
+    position: relative;
+    margin-top: 14px;
+    
+}
+.footer.container-fluid{
+    height: 120px;
+}
+.footer.footer-section{
+    padding: 22px;
+}
+.footer .about{
+margin-left: auto;
+display: block;
+float: left;
+
+}
+.footer .links{
+ margin-right: auto;
+ display: block;
+ 
+}
+.footer .links2{
+    margin-right: auto;
+    display: block;
+    float: right;
+   }
+   /*
+admin
+*/
+ .reg_form h2{
+     text-align: center;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ .reg_form input{
+     height: 3.3rem;
+ }
+ /* cards*/
+ 
+ 
